@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="shoes.js" type="module"></script>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="flex__spacebetween__align-center">
+            <h1>LOGO</h1>
+            <div>
+                <a href="./index.html" class="header__link">Все товары</a>
+                <a href="./shirt.html" class="header__link">Футболки</a>
+                <a href="./pants.html" class="header__link">Штаны</a>
+                <a href="./shoes.html" class="header__link active">Обувь</a>
+            </div>
+            <input type="button" value="Тёмная тема" id="mode">
+        </div>
+    </header>
+    <main>
+        <h2>Обувь</h2>
+        <div class="flex__spacearound__align-center" id="shoesList">
+
+        </div>
+        <div class="modal hidden" id="modal">
+            <div class="modal__content" id="modalContent">
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="footer__ul">
+            <li class="footer__ul__li"><a class="footer__ul__li__link" href="./index.html">Все товары</a></li>
+            <li class="footer__ul__li"><a class="footer__ul__li__link" href="./shirt.html">Футболки</a></li>
+            <li class="footer__ul__li"><a class="footer__ul__li__link" href="./pants.html">Штаны</a></li>
+            <li class="footer__ul__li"><a class="footer__ul__li__link active" href="./shoes.html">Обувь</a></li>
+        </ul>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+
+</html>
